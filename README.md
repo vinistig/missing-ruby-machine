@@ -1,8 +1,11 @@
 # Chef Automation
 ## Getting started
 
-To bootstrap a linux machine from scratch, use:
+To bootstrap a linux machine from scratch, use this Gist bash script:
 
-curl https://gist.githubusercontent.com/mateusnroll/1c8597f1e3ccef727eaee469be7d69f8/raw/37c3ae8a5a3b64647a018217191290f62ece3176/bootstrap_chef_breakingmachine.sh | bash
+```sh
+curl https://raw.github.ibm.com/gist/vinistig/e7a92b6114c122dd3c1ab0eaf752a387/raw/e7e4c0301912e3bbbb3c60f4324e6c5a59009bc1/bash_chef_breakingmachine.sh?token=AAAGK3Gs6Rz-qHOcxXED7JwwgiQb3ZnNks5Y921owA%3D%3D | bash
+```
+Original gist: https://gist.github.ibm.com/vinistig/e7a92b6114c122dd3c1ab0eaf752a387 
 
-Original gist: https://gist.github.com/mateusnroll/1c8597f1e3ccef727eaee469be7d69f8 If you are on CentOS, you might want to fix your locale: https://gist.github.com/mateusnroll/9b528b410ab13319307411d159e39478
+If the OS locale is not set to en_US.UTF-8, you might want to fix your locale: https://gist.github.ibm.com/vinistig/79300c9097336bd1e3a94cfe505c1b6d
