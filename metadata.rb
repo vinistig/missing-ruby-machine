@@ -1,4 +1,4 @@
-name 'missing_breaking_machine'
+name 'missing_ruby_machine'
 maintainer 'Vinicius Stigliani'
 maintainer_email 'vinistig@br.ibm.com'
 license 'all_rights'
