@@ -1,15 +1,19 @@
 {
-  "name": "chef_breaking_machine",
-  "description": "Installs/Configures chef_breaking_machine",
-  "long_description": "Installs/Configures chef_breaking_machine",
-  "maintainer": "The Authors",
-  "maintainer_email": "you@example.com",
+  "name": "missing_ruby_machine",
+  "description": "Installs/Configures missing_ruby_machine",
+  "long_description": "Installs/Configures missing_ruby_machine",
+  "maintainer": "Vinicius Stigliani",
+  "maintainer_email": "vinistig@br.ibm.com",
   "license": "all_rights",
   "platforms": {
   },
   "dependencies": {
     "git": ">= 0.0.0",
-    "nvm": ">= 0.0.0"
+	"rvm": ">= 0.9.4",
+	"yum-passenger": ">=0.1.1",
+	"nginx": ">= 2.7.6",
+	"capistrano": ">= 0.7.0",
+	"rvm_passenger_nginx": ">= 1.0.0"
   },
   "recommendations": {
   },

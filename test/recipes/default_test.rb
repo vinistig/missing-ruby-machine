@@ -1,6 +1,6 @@
 # # encoding: utf-8
 
-# Inspec test for recipe chef_breaking_machine::default
+# Inspec test for recipe missing_ruby_machine::default
 
 # The Inspec reference, with examples and extensive documentation, can be
 # found at https://docs.chef.io/inspec_reference.html

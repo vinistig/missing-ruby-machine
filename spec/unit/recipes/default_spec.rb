@@ -1,12 +1,12 @@
 #
-# Cookbook Name:: chef_breaking_machine
+# Cookbook Name:: missing_ruby_machine
 # Spec:: default
 #
 # Copyright (c) 2017 The Authors, All Rights Reserved.
 
 require 'spec_helper'
 
-describe 'chef_breaking_machine::default' do
+describe 'missing_ruby_machine::default' do
   context 'When all attributes are default, on an unspecified platform' do
     let(:chef_run) do
       runner = ChefSpec::ServerRunner.new
