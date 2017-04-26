@@ -8,12 +8,13 @@
   "platforms": {
   },
   "dependencies": {
-    "git": ">= 0.0.0",
+   	"git": ">= 0.0.0",
 	"rvm": ">= 0.9.4",
 	"yum-passenger": ">=0.1.1",
 	"nginx": ">= 2.7.6",
 	"capistrano": ">= 0.7.0",
-	"rvm_passenger_nginx": ">= 1.0.0"
+	"rvm_passenger_nginx": ">= 1.0.0",
+	"7-zip":">=2.0.1",
   },
   "recommendations": {
   },
