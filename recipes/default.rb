@@ -7,3 +7,8 @@
 git_client 'default' do
 	action :install
 end
+
+chef_gem 'rvm' do
+  action :install
+  version '>= 1.11.3.6'
+end
