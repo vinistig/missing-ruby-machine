@@ -14,7 +14,7 @@
 	"nginx": ">= 2.7.6",
 	"capistrano": ">= 0.7.0",
 	"rvm_passenger_nginx": ">= 1.0.0",
-	"7-zip":">=2.0.1",
+	"7-zip":">=1.0.0"
   },
   "recommendations": {
   },
